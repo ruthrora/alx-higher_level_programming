@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 for a in range(122, 96, -1):
     if a % 2 == 0:
-        b = chr(a)
+        print("{}".format(chr(a)), end=""))
     else:
-        b = chr(a-32)
-        print("{}".format(b), end="")
+         print("{}".format(chr(a).upper()), end="")
