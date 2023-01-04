@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-for c in string.ascii_lowercase:
-    print(c, end='')
+for b in range(ord('a'),ord('z')+ 1):
+    print("{:c}".format(b),end="")
